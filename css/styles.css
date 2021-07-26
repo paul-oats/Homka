@@ -20,13 +20,15 @@ p:empty {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: var(--black);
 }
 :root {
-	--font:		 	#000;
+	--black:		 	#000;
 	--white:		#fff;
 }
 
 .flex{
+    
 	display: flex;
 }
 .column{
