@@ -23,12 +23,11 @@ body {
     color: var(--black);
 }
 :root {
-	--black:		 	#000;
+	--black:        #000;
 	--white:		#fff;
 }
 
 .flex{
-    
 	display: flex;
 }
 .column{
@@ -57,6 +56,9 @@ body {
 }
 .col-3{
 	grid-template-columns: repeat(3, 1fr);
+}
+.col-4{
+	grid-template-columns: repeat(4, 1fr);
 }
 .col-5{
 	grid-template-columns: repeat(5, 1fr);
