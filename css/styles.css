@@ -120,3 +120,13 @@ img{
 .col-12{
 	grid-template-columns: repeat(12, 1fr);
 }
+
+
+/****/
+main{
+    padding: 0 187px;
+    max-width: unset;
+    width: calc(100% - 374px);
+    margin: 100px auto 0;
+    /* MAIN CONTAINER*/
+}
