@@ -14,7 +14,7 @@ p:empty {
 /* я не меняла размер курсора, потому что в дизайне картинка вроде тоже полноразмерная. Если нужно, напиши мне */
 
 :root {
-	--font:		 	#000;
+	--black:        #000;
 	--white:		#fff;
 }
 body {
@@ -23,7 +23,7 @@ body {
     background-color: #fff;
     cursor: url(../img/Semki.png), default;
     max-width: 1920px;
-    color: var(--font);
+    color: var(--black);
 }
 header {
     display: flex;
@@ -65,7 +65,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 a {
     text-decoration: none;
-    color: var(--font);
+    color: var(--black);
     cursor: url(../img/Semki.png), default;
 }
 .flex>ul>li {
