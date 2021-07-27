@@ -11,24 +11,75 @@ table{border-collapse:collapse;border-spacing:0;}
 p:empty {
   display: none !important;
 }
+/* я не меняла размер курсора, потому что в дизайне картинка вроде тоже полноразмерная. Если нужно, напиши мне */
 
-@font-face {
-  font-family: 'Roboto';
-  src: url(./fonts/Roboto-Regular.ttf);
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: var(--black);
-}
 :root {
-	--black:        #000;
+	--font:		 	#000;
 	--white:		#fff;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    background-color: #fff;
+    cursor: url(../img/Semki.png), default;
+    max-width: 1920px;
+    color: var(--font);
+}
+header {
+    display: flex;
+    max-width: 100%;
+}
+.header-menu {
+    position: absolute;
+    width: 1920px;
+    height: 64px;
+    right: 0px;
+    top: 37px;
+    
+    background: #FFFFFF;
+}
+.slider1 {
+    position: absolute;
+width: 77px;
+height: 32px;
+right: 1813px;
+top: 56px;
 
-.flex{
+background: linear-gradient(270deg, #FF80DB 0%, #76DAE5 89.09%);
+border-radius: 100px;
+}
+slider2 {
+    position: absolute;
+width: 77px;
+height: 32px;
+right: -47px;
+top: 56px;
+
+background: linear-gradient(270deg, #FF80DB 0%, #76DAE5 89.09%);
+border-radius: 100px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.flex>ul{
 	display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: var(--font);
+    cursor: url(../img/Semki.png), default;
+}
+.flex>ul>li {
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.logo {
+    margin: 0;
+    padding: 0;
 }
 .column{
 	flex-flow: column nowrap;
@@ -56,9 +107,6 @@ body {
 }
 .col-3{
 	grid-template-columns: repeat(3, 1fr);
-}
-.col-4{
-	grid-template-columns: repeat(4, 1fr);
 }
 .col-5{
 	grid-template-columns: repeat(5, 1fr);
