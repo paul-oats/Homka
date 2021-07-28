@@ -80,9 +80,6 @@ main{
     width: calc(100% - 374px);
     margin: 100px auto 0;
 }
-.homka_smm_img {
-    margin-top: 37px;
-}
 h1, h2 { 
     font-size: 54px;
     font-weight: 800;
@@ -93,12 +90,6 @@ img{
 }
 .grid{
 	display: grid;
-}
-.text_box1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 45% 55%;
-    margin-top: 56px;
 }
 .logo {
     margin: 0;
@@ -140,4 +131,12 @@ img{
 }
 .col-12{
 	grid-template-columns: repeat(12, 1fr);
+}
+
+/** CODE START HERE **/
+.homka_smm_img {
+    margin: 37px 0 0;
+}
+.text_box {
+    margin: 56px auto 0;
 }
