@@ -85,12 +85,23 @@ h1, h2 {
     font-size: 54px;
     font-weight: 800;
 }
+h3 {
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+}
 .text {
-    margin: 0 0 99px 0;
+    margin: 0 0 100px 0;
 }
 img{
     max-width: 100%;
     height: auto;
+}
+.dot {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FEAD22;
+    
 }
 .grid{
 	display: grid;
