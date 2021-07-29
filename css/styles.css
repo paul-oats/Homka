@@ -119,19 +119,24 @@ img{
 .content-box {
     margin: 71px 0 0 0;
 }
-.content_1 {
+/* .content_1 {
     grid-template-rows: 66% 33%;
     grid-template-columns: 1fr;
 }
 .content_2 {
     grid-template-rows: 33% 66%;
     grid-template-columns: 1fr;
-}
+} */
 .flex {
     display: flex;
 }
 
+
+
 /****/
+.marginTop{
+margin-top: 200px;
+}
 .logo {
     margin: 0;
     padding: 0;
