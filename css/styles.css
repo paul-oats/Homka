@@ -70,16 +70,16 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 40px;
     margin-bottom: 19px;
 }*/
-a {
-    text-decoration: none;
-    color: var(--black);
-    /*cursor: url(../img/Semki.png), default;*/
-}
 main{
     padding: 0 187px;
     max-width: unset;
     width: calc(100% - 374px);
     margin: 100px auto 0;
+}
+a {
+    text-decoration: none;
+    color: var(--black);
+    /*cursor: url(../img/Semki.png), default;*/
 }
 h1, h2 { 
     font-size: 54px;
@@ -92,6 +92,12 @@ h3 {
 }
 .text {
     margin: 0 0 100px 0;
+}
+.homka_smm_img {
+    margin: 37px 0 0;
+}
+.text_box {
+    margin: 56px auto 0;
 }
 img{
     max-width: 100%;
@@ -106,6 +112,22 @@ img{
 .grid{
 	display: grid;
 }
+.content-box {
+    margin: 71px 0 0 0;
+}
+.content_1 {
+    grid-template-rows: 66% 33%;
+    grid-template-columns: 1fr;
+}
+.content_2 {
+    grid-template-rows: 33% 66%;
+    grid-template-columns: 1fr;
+}
+.flex {
+    display: flex;
+}
+
+/****/
 .logo {
     margin: 0;
     padding: 0;
@@ -129,12 +151,20 @@ img{
 .row-1{
 	grid-template-rows: repeat(1, 1fr);
 }
+.row-3{
+	grid-template-rows: repeat(3, 1fr);
+}
 .col-2{
 	grid-template-columns: 45% 55%;
-
+}
+.column_reverse{
+	grid-template-columns: 60% 40%;
 }
 .col-3{
 	grid-template-columns: repeat(3, 1fr);
+}
+.col-4 {
+    grid-template-columns: repeat(4, 1fr);
 }
 .col-5{
 	grid-template-columns: repeat(5, 1fr);
@@ -147,12 +177,4 @@ img{
 }
 .col-12{
 	grid-template-columns: repeat(12, 1fr);
-}
-
-/** CODE START HERE **/
-.homka_smm_img {
-    margin: 37px 0 0;
-}
-.text_box {
-    margin: 56px auto 0;
 }
