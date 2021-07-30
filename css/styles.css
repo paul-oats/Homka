@@ -327,7 +327,9 @@ img{
 	grid-template-rows: repeat(3, 1fr);
 }
 .col-2{
-	grid-template-columns: 45% 55%;
+	/* grid-template-columns: 45% 55%; */
+    grid-template-columns: 660px 1fr;
+    
 }
 
 .col-3{
@@ -347,4 +349,8 @@ img{
 }
 .col-12{
 	grid-template-columns: repeat(12, 1fr);
+}
+
+.gap-80{
+    column-gap: 80px;
 }
