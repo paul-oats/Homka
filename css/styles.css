@@ -76,6 +76,11 @@ main{
     width: calc(100% - 374px);
     margin: 100px auto 0;
 }
+footer {
+    max-width: unset;
+    width: calc(100% - 374px);
+    padding: 0 187px 50px 187px;
+}
 a {
     text-decoration: none;
     color: var(--black);
@@ -148,6 +153,7 @@ img{
     position: relative;
     margin-top: 23px;
     margin-bottom: 127px;
+    height: 595px;
 }
 .absolute {
     position: absolute;
@@ -275,6 +281,11 @@ img{
 .absolute_comment31 {
     left: 1201px;
     top: 504px;
+}
+.illbeback {
+    margin-top: 141px;
+    margin-bottom: 115px;
+    justify-content: center;
 }
 /****/
 
