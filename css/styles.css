@@ -121,7 +121,8 @@ img{
     margin: 124px 0 0 0;
 }
 .content-box {
-    margin: 71px 0 0 0;
+    margin-top: 71px;
+    justify-content: center;
 }
 /* .content_1 {
     grid-template-rows: 66% 33%;
