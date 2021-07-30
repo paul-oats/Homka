@@ -70,7 +70,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 40px;
     margin-bottom: 19px;
 }*/
-/* Я убрала паддинг, в попытках выяснить, почему суммарная ширина блока не равна записанной в мэйне. Ничего не поменялось */
 main{
     
     max-width: unset;
@@ -94,17 +93,16 @@ h3 {
 .text {
     margin: 0 0 100px 0;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 .homka_smm_img {
     margin: 37px 0 0;
-    width: 100%;
 }
 .text_box {
     margin: 56px auto 0;
 }
-/*img{
-    max-width: 100%;
-    height: auto;
-}*/
 .dot {
     font-size: 30px;
     font-weight: 700;
