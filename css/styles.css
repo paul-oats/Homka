@@ -127,6 +127,101 @@ img{
 .grid{
 	display: grid;
 }
+.semki-box {
+    position: relative;
+}
+.semka1 {
+    left: 375px;
+    top: 20px;
+}
+.semka2 {
+    left: 467px;
+    top: 131px;
+}
+.semka3 {
+    right: 10px;
+    top: 87px;
+}
+.semka4 {
+    right: 453px;
+    bottom: 130px;
+}
+.semka5 {
+    right: 379px;
+    bottom: 198px;
+}
+.arrow {
+    right: 10px;
+    top: 240px;
+}
+.arrow-text {
+    right: 100px;
+    top: 170px; 
+}
+.semka6 {
+    left: 5px;
+    top: 65px;
+}
+.semka7 {
+    left: 93px;
+    top: 220px;
+}
+.semka8 {
+    right: 560px;
+    top: 30px;
+}
+.semka9 {
+    right: 35px;
+    top: 320px;
+}
+.semka10 {
+    left: 480px;
+    bottom: 70px;
+}
+.semka11 {
+    left: 5px;
+    top: 110px;
+}
+.semka12 {
+    left: 90px;
+    top: 240px;
+}
+.semka13 {
+    right: 550px;
+    top: 10px;
+}
+.semka14 {
+    right: 60px;
+    bottom: 110px;
+}
+.semka15 {
+    left: 70px;
+    top: 30px;
+}
+.semka16 {
+    right: -70px;
+    top: 120px;
+}
+.semka17 {
+    right: 440px;
+    bottom: 15px;
+}
+.semka18 {
+    left: 25px;
+    top: 150px;
+}
+.semka19 {
+    left: 600px;
+    top: 70px;
+}
+.semka20 {
+    right: 50px;
+    top: 110px;
+}
+.semka21 {
+    right: 430px;
+    bottom: 110px;
+}
 .new-content-2 {
     margin: 124px 0 0 0;
 }
@@ -152,7 +247,10 @@ img{
     margin-top: 200px;
     }
 .marginTop2 {
-    margin-top: 106px;
+    margin-top: 95px;
+}
+.marginTop3 {
+    margin-top: 280px;
 }
 .caps {
     font-size: 30px;
@@ -327,9 +425,7 @@ img{
 	grid-template-rows: repeat(3, 1fr);
 }
 .col-2{
-	/* grid-template-columns: 45% 55%; */
-    grid-template-columns: 660px 1fr;
-    
+	grid-template-columns: 45% 55%;
 }
 
 .col-3{
@@ -349,8 +445,4 @@ img{
 }
 .col-12{
 	grid-template-columns: repeat(12, 1fr);
-}
-
-.gap-80{
-    column-gap: 80px;
 }
