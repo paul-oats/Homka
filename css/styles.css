@@ -70,8 +70,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 40px;
     margin-bottom: 19px;
 }*/
+/* Я убрала паддинг, в попытках выяснить, почему суммарная ширина блока не равна записанной в мэйне. Ничего не поменялось */
 main{
-    padding: 0 187px;
+    
     max-width: unset;
     width: calc(100% - 374px);
     margin: 100px auto 0;
@@ -95,14 +96,15 @@ h3 {
 }
 .homka_smm_img {
     margin: 37px 0 0;
+    width: 100%;
 }
 .text_box {
     margin: 56px auto 0;
 }
-img{
+/*img{
     max-width: 100%;
     height: auto;
-}
+}*/
 .dot {
     font-size: 30px;
     font-weight: 700;
@@ -112,8 +114,7 @@ img{
 .grid{
 	display: grid;
 }
-.new-content2 {
-    display: block;
+.new-content-2 {
     margin: 124px 0 0 0;
 }
 .content-box {
@@ -130,13 +131,23 @@ img{
 .flex {
     display: flex;
 }
-
-
-
-/****/
-.marginTop{
-margin-top: 200px;
+.column_reverse{
+	grid-template-columns: 70% 30%;
 }
+.marginTop{
+    margin-top: 200px;
+    }
+.marginTop2 {
+    margin-top: 106px;
+}
+.caps {
+    font-size: 30px;
+}
+.people_love {
+    margin-top: 95px;
+}
+/****/
+
 .logo {
     margin: 0;
     padding: 0;
@@ -166,9 +177,7 @@ margin-top: 200px;
 .col-2{
 	grid-template-columns: 45% 55%;
 }
-.column_reverse{
-	grid-template-columns: 60% 40%;
-}
+
 .col-3{
 	grid-template-columns: repeat(3, 1fr);
 }
