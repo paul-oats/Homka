@@ -144,6 +144,138 @@ img{
 .people_love {
     margin-top: 95px;
 }
+.comment-box {
+    position: relative;
+    margin-top: 23px;
+    margin-bottom: 127px;
+}
+.absolute {
+    position: absolute;
+}
+.absolute_comment1 {
+    left: 0px;
+    top: 0px;
+}
+.absolute_comment2 {
+    left: 289px;
+    top: 42px;
+}
+.absolute_comment3 {
+    left: 525px;
+    top: 78px;
+}
+.absolute_comment4 {
+    left: 760px;
+    top: 67px;
+}
+.absolute_comment5 {
+    left:916px;
+    top: 119px;
+}
+.absolute_comment6 {
+    left: 1117px;
+    top: 15px;
+}
+.absolute_comment7 {
+    left: 127px;
+    top: 205px;
+}
+.absolute_comment8 {
+    left: 359px;
+    top: 220px;
+}
+.absolute_comment9 {
+    left: 587px;
+    top: 171px;
+}
+.absolute_comment10 {
+    left: 731px;
+    top: 180px;
+}
+.absolute_comment11 {
+    left: 853px;
+    top: 174px;
+}
+.absolute_comment12 {
+    left: 1085px;
+    top: 265px;
+}
+.absolute_comment13 {
+    left: 1266px;
+    top: 174px;
+}
+.absolute_comment14 {
+    left: 0px;
+    top: 283px;
+}
+.absolute_comment15 {
+    left: 231px;
+    top: 310px;
+}
+.absolute_comment16 {
+    left: 535px;
+    top: 303px;
+}
+.absolute_comment17 {
+    left: 818px;
+    top: 296px;
+}
+.absolute_comment18 {
+    left: 1157px;
+    top: 323px;
+}
+.absolute_comment19 {
+    left: 1323px;
+    top: 393px;
+}
+.absolute_comment20 {
+    left: 48px;
+    top: 389px;
+}
+.absolute_comment21 {
+    left: 302px;
+    top: 399px;
+}
+.absolute_comment22 {
+    left: 484px;
+    top: 398px;
+}
+.absolute_comment23 {
+    left: 709px;
+    top: 389px;
+}
+.absolute_comment24 {
+    left: 976px;
+    top: 369px;
+}
+.absolute_comment25 {
+    left: 1323px;
+    top: 393px;
+}
+.absolute_comment26 {
+    left: 139px;
+    top: 475px;
+}
+.absolute_comment27 {
+    left: 302px;
+    top: 399px;
+}
+.absolute_comment28 {
+    left: 552px;
+    top: 463px;
+}
+.absolute_comment29 {
+    left: 757px;
+    top: 536px;
+}
+.absolute_comment30 {
+    left: 944px;
+    top: 437px;
+}
+.absolute_comment31 {
+    left: 1201px;
+    top: 504px;
+}
 /****/
 
 .logo {
