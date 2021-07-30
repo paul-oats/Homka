@@ -222,6 +222,11 @@ img{
     right: 430px;
     bottom: 110px;
 }
+
+.new-content-5,
+.new-content-4,
+.new-content-3,
+.new-content-1,
 .new-content-2 {
     margin: 124px 0 0 0;
 }
@@ -244,24 +249,23 @@ img{
 	grid-template-columns: 70% 30%;
 }
 .marginTop{
-    margin-top: 200px;
+    margin: 200px 0 0 ;
     }
 .marginTop2 {
-    margin-top: 95px;
+    margin: 95px 0 0;
 }
 .marginTop3 {
-    margin-top: 280px;
+    margin: 280px 0 0;
 }
 .caps {
     font-size: 30px;
 }
 .people_love {
-    margin-top: 95px;
+    margin: 95px 0 0;
 }
 .comment-box {
     position: relative;
-    margin-top: 23px;
-    margin-bottom: 127px;
+    margin: 23px 0 127px;
     height: 595px;
 }
 .absolute {
@@ -450,3 +454,4 @@ img{
 .gap-80{
     column-gap: 80px;
 }
+
