@@ -108,6 +108,16 @@ img{
 .text_box {
     margin: 56px auto 0;
 }
+.img_oksana .text_oksana {
+    margin-bottom: 88px;
+}
+.blackbox {
+    margin-top: 93px;
+    padding: 58px 15px 58px 53px;
+    background: #292929;
+    color: var(--white);
+    border-radius: 14px;
+}
 .dot {
     font-size: 30px;
     font-weight: 700;
