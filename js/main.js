@@ -3,24 +3,24 @@ jQuery(document).ready(function($){
     return ( window.innerWidth <= 1000  );
   }
 
-  var show = true;
-    var countbox = "section";
-    $(window).on("scroll load resize", function () {
-        if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
-        var w_top = $(window).scrollTop(); // Количество пикселей на которое была прокручена страница
-        var e_top = $(countbox).offset().top; // Расстояние от блока со счетчиками до верха всего документа
-        var w_height = $(window).height(); // Высота окна браузера
-        var d_height = $(document).height(); // Высота всего документа
-        var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
-        if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
-          $('.benefits__number').css('opacity', '1');
-          $('.benefits__number').spincrement({
-              thousandSeparator: "",
-              duration: 1200
-          });
-           show = false;
-        }
-    });
+  // var show = true;
+  //   var countbox = "section.active";
+  //   $(window).on("scroll load resize", function () {
+  //       if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
+  //       var w_top = $(window).scrollTop(); // Количество пикселей на которое была прокручена страница
+  //       var e_top = $(countbox).offset().top; // Расстояние от блока со счетчиками до верха всего документа
+  //       var w_height = $(window).height(); // Высота окна браузера
+  //       var d_height = $(document).height(); // Высота всего документа
+  //       var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
+  //       if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
+  //         $('.benefits__number').css('opacity', '1');
+  //         $('.benefits__number').spincrement({
+  //             thousandSeparator: "",
+  //             duration: 1200
+  //         });
+  //          show = false;
+  //       }
+  //   });
 
 
 
@@ -165,6 +165,24 @@ $(document).scroll(function(e){
       if ($('.comment-box').isInViewport()) {
         $('.comment-box').addClass('in_view')
       }
+
+      if ($('section').isInViewport()) {
+        $('section').addClass('active');
+
+        $('section.active').find('.benefits__number')
+
+        var child3 = $('.parent1').find(".child3");
+        if(child3.length > 0) {
+          // child3 is present
+        }
+
+        $('.benefits__number').css('opacity', '1');
+          $('.benefits__number').spincrement({
+              thousandSeparator: "",
+              duration: 1200
+          });
+      }
+
 
         // if ($('.turbo__animation').isInViewport()) {
         //   var left = 15 * (screen.width / 100),

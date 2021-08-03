@@ -637,8 +637,10 @@ img {
         justify-content: center;
     }
     .comment-box.in_view img {
-        width: 200px;
+        width: 48%;
     }
+    
+  
     
     .absolute_comment6 {
         left: -1.17vw;
