@@ -29,9 +29,11 @@ body {
     overflow-x: hidden;
 }
 
-section{
-    width:auto;
+section {
+    width: auto;
     padding: 0 9.37vw;
+    max-width: 1546px;
+    margin: 0 auto;
 }
 
 /*header {
@@ -112,7 +114,7 @@ img {
     display: block;
 }
 .homka_smm_img {
-    margin: 37px 0 0;
+    margin: 37px auto 0;
 }
 .text_box {
     margin: 56px auto 0;
@@ -206,7 +208,7 @@ img {
     /* left: 480px; */
     left: 25vw;
     /* bottom: 70px; */
-    bottom: 6.48vh;
+    bottom: 4.48vh;
 }
 .semka11 {
     /* left: 5px; */
@@ -277,10 +279,11 @@ img {
     
 }
 
-.semka{
+.semka {
     /* width: 114px; */
     width: 5.9vw;
     height: auto;
+    max-width: 100px;
 }
 
 
@@ -288,10 +291,10 @@ img {
 .new-content-4,
 .new-content-1,
 .new-content-2 {
-    margin: 124px 0 0 0;
+    margin: 124px auto 0;
 }
 .new-content-3 {
-    margin: 109px 0 0 0;
+    margin: 109px auto 0;
 }
 .content-box {
     margin-top: 71px;
@@ -685,7 +688,4 @@ img {
         padding: 0 9.735vw 50px;
         margin: 50px auto 0;
     }
-}
-p br{
-    /* display: none; */
 }
