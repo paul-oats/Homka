@@ -82,8 +82,7 @@ main{
     
     max-width: unset;
     /* width: calc(100% - 374px); */
-    width: 100%;
-    
+    width: auto;
     margin: 100px auto 0;
 }
 footer{
