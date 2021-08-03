@@ -279,10 +279,12 @@ img{
 
 .new-content-5,
 .new-content-4,
-.new-content-3,
 .new-content-1,
 .new-content-2 {
     margin: 124px 0 0 0;
+}
+.new-content-3 {
+    margin: 109px 0 0 0;
 }
 .content-box {
     margin-top: 71px;
