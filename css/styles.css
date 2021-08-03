@@ -287,160 +287,177 @@ img{
     position: absolute;
     height: auto;
 }
+
+.comment-box img{
+    opacity: 0;
+}
+
+.comment-box.in_view img{
+    opacity: 1;
+}
+
 .absolute_comment1 {
     left: 0px;
     top: 0px;
     width: 15.9375vw;
+    transition-delay: .5s !important;
 }
 .absolute_comment2 {
     left: 15.05vw;
     top: 3.8vh;
     width: 12.65625vw;
+    transition-delay: .7s !important;
 }
 .absolute_comment3 {
     left: 27.34375vw;
     top: 7.22vh;
     width: 14.01vw;
+    transition-delay: .8s !important;
 }
 .absolute_comment4 {
     left: 39.58vw;
     top: 6.203vh;
     width: 17.5vw;
+    transition-delay: 1s !important;
 }
 .absolute_comment5 {
     left: 47.708vw;
     top: 11.018vh;
     width: 17.29vw;
+    transition-delay: 1.4s !important;
 }
 .absolute_comment6 {
     left: 58.17vw;
     top: 1.38vh;
     width: 16.25vw;
+    transition-delay: 1.7s !important;
 }
 .absolute_comment7 {
     left: 6.61vw;
     top: 18.98vh;
     width: 14.79vw;
+    transition-delay: 2s !important;
 }
 .absolute_comment8 {
     left: 20.57vw;
     top: 20.37vh;
     width: 14.47vw;
+    transition-delay: 2.2s !important;
 }
 .absolute_comment9 {
     left: 30.57vw;
     top: 15.83vh;
-    width: 15.3125vw;
+    width: 15.3125vw; transition-delay: 1.5s !important;
 }
 .absolute_comment10 {
     left: 38.07vw;
     top: 16.66vh;
-    width: 11.61vw;
-}
+    width: 11.61vw; transition-delay: 1.2s !important;
+} 
 .absolute_comment11 {
     left: 44.42vw;
     top: 16.11vh;
-    width: 15.15625vw;
+    width: 15.15625vw; transition-delay: .6s !important;
 }
 .absolute_comment12 {
     left: 56.51vw;
     top: 24.53vh;
-    width: 13.85vw;
+    width: 13.85vw; transition-delay: .4s !important;
 }
 .absolute_comment13 {
     left: 56.51vw;
     top: 16.11vh;
-    width: 16.875vw;
+    width: 16.875vw; transition-delay: 1.3s !important;
 }
 .absolute_comment14 {
     left: 0px;
     top: 26.2vh;
-    width: 18.48vw;
+    width: 18.48vw; transition-delay: 1.9s !important;
 }
 .absolute_comment15 {
     left: 12.03125vw;
     top: 28.7vh;
-    width: 12.39vw;
+    width: 12.39vw; transition-delay: .5s !important;
 }
 .absolute_comment16 {
     left: 27.86vw;
     top: 25.92vh;
-    width: 14.58vw;
+    width: 14.58vw; transition-delay: .7s !important;
 }
 .absolute_comment17 {
     left: 42.6vw;
     top: 27.4vh;
-    width: 12.76vw;
+    width: 12.76vw; transition-delay: .3s !important;
 }
 .absolute_comment18 {
     left: 60.26vw;
     top: 29.9vh;
-    width: 10.1vw;
+    width: 10.1vw; transition-delay: 1.5s !important;
 }
 .absolute_comment19 {
     left: 68.90625vw;
     top: 36.38vh;
-    width: 10.1vw;
+    width: 10.1vw; transition-delay: 1.4s !important;
 }
 .absolute_comment20 {
     left: 2.5vw;
     top: 22.77vh;
-    width: 12.8125vw;
+    width: 12.8125vw; transition-delay: .7s !important;
 }
 .absolute_comment21 {
     left: 15.72vw;
     top: 36.94vh;
-    width: 19.73vw;
+    width: 19.73vw; transition-delay: .8s !important;
 }
 .absolute_comment22 {
     left: 25.208vw;
     top: 36.85vh;
-    width: 12.8125vw;
+    width: 12.8125vw; transition-delay: 1.6s !important;
 }
 .absolute_comment23 {
     left: 36.92vw;
     top: 36.01vh;
-    width: 13.85vw;
+    width: 13.85vw; transition-delay: 1.2s !important;
 }
 .absolute_comment24 {
     left: 50.83vw;
     width: 22.87vw;
-    top: 35.09vh;
+    top: 35.09vh; transition-delay: .9s !important;
 }
 .absolute_comment25 {
     left: 68.90625vw;
     top: 36.38vh;
-    width: 12.29vw;
+    width: 12.29vw; transition-delay: .8s !important;
 }
 .absolute_comment26 {
     left: 7.23vw;
     top: 43.98vh;
-    width: 18.28125vw;
+    width: 18.28125vw; transition-delay: 1.2s !important;
 }
 .absolute_comment27 {
     left: 15.72vw;
     top: 36.94vh;
-    width: 20.57vw;
+    width: 20.57vw; transition-delay: 2s !important;
 }
 .absolute_comment28 {
     left: 28.75vw;
     top: 42.87vh;
-    width: 14.42vw;
+    width: 14.42vw; transition-delay: .6s !important;
 }
 .absolute_comment29 {
     left: 39.42vw;
     top: 49.62vh;
-    width: 18.02vw;
+    width: 18.02vw; transition-delay: .5s !important;
 }
 .absolute_comment30 {
     left: 40.4vw;
     top: 40.46vh;
-    width: 14.42vw;
+    width: 14.42vw; transition-delay: 1.5s !important;
 }
 .absolute_comment31 {
     left: 62.55vw;
     top: 46.66vh;
-    width: 13.22vw;
+    width: 13.22vw; transition-delay: 1.2s !important;
 }
 .illbeback {
     margin: 141px 0 115px;
@@ -531,6 +548,7 @@ img{
     }
     h1, h2, h3 {
         font-size: 28px;
+        margin: 0 0 16px;
     }
     body{
         font-size: 16px;
@@ -541,5 +559,73 @@ img{
     .semka{
         display: none;
     }
+    .img_oksana, .text_oksana {
+        margin: 0;
+    }
+    .blackbox{
+        margin: 0 0 50px;
+    }
+    .text {
+        margin: 0 0 50px;
+    }
+    br,
+    .text_box.column_reverse p br{
+        display: none;
+    }
+    .content-box {
+        overflow: hidden;
+        margin: 50px 0 0;
+        justify-content: center;
+    }
+    .comment-box.in_view img {
+        width: 200px;
+    }
     
+    .absolute_comment6 {
+        left: -1.17vw;
+    }
+    .absolute_comment13 {
+        left: 6.51vw;
+    }
+    .absolute_comment31 {
+        left: 6.55vw;
+    }
+    .absolute_comment19 {
+        left: 18.90625vw;
+    }
+    .absolute_comment25 {
+        left: -3vw;
+    }
+    .absolute_comment18 {
+        left: -2vw;
+    }
+    .absolute_comment12 {
+        left: -1vw;
+    }
+    .absolute_comment24 {
+        left: 10.83vw;
+    }
+    .absolute_comment5 {
+        left: -5vw;
+    }
+    .absolute_comment11 {
+        left: -20.42vw;
+    }
+    .absolute_comment30 {
+        left: -20.4vw;
+    }
+
+    .comment-box {
+        position: relative;
+        margin: 24px 0 120px;
+        height: 595px;
+    }
+    .illbeback {
+        margin: 50px 0 0;
+        justify-content: center;
+    }
+    footer {
+        padding: 0 9.735vw 50px;
+        margin: 50px auto 0;
+    }
 }
