@@ -93,6 +93,7 @@ h1, h2, h3 {
     /* font-size: 54px; */
     font-size: 2.8125vw;
     font-weight: 800;
+    line-height: 1;
 }
 h3{
     text-align: center;
