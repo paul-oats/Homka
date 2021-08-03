@@ -105,9 +105,11 @@ h3{
 .text {
     margin: 0 0 100px 0;
 }
-img{
+img {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
+    display: block;
 }
 .homka_smm_img {
     margin: 37px 0 0;
