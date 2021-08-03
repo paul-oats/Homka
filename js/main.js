@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
   }
 
 $(document).scroll(function(e){
-  console.log(e)
+  
   $('.semka').attr('style', 'transform: rotate('+window.pageYOffset+'deg);')
 })
 
