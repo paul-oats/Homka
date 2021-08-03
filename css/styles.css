@@ -623,6 +623,9 @@ img {
     .img_oksana, .text_oksana {
         margin: 0;
     }
+    .img_anc {
+        margin: 0 0 32px 0;
+    }
     .blackbox{
         margin: 0 0 50px;
     }
