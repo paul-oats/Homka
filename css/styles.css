@@ -55,7 +55,6 @@ width: 77px;
 height: 32px;
 right: 1813px;
 top: 56px;
-
 background: linear-gradient(270deg, #FF80DB 0%, #76DAE5 89.09%);
 border-radius: 100px;
 }
@@ -65,7 +64,6 @@ width: 77px;
 height: 32px;
 right: -47px;
 top: 56px;
-
 background: linear-gradient(270deg, #FF80DB 0%, #76DAE5 89.09%);
 border-radius: 100px;
 transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -657,7 +655,7 @@ img {
         left: -3vw;
     }
     .absolute_comment18 {
-        left: -2vw;
+        left: -6vw;
     }
     .absolute_comment12 {
         left: -1vw;
@@ -666,13 +664,13 @@ img {
         left: 10.83vw;
     }
     .absolute_comment5 {
-        left: -5vw;
+        left: -5.7vw;
     }
     .absolute_comment11 {
-        left: -20.42vw;
+        left: 4.42vw;
     }
     .absolute_comment30 {
-        left: -20.4vw;
+        left: -4.4vw;
     }
 
     .comment-box {
