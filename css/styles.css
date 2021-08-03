@@ -351,8 +351,8 @@ img {
 }
 
 .absolute_comment1 {
-    left: 0px;
-    top: 0px;
+    left: 10vw;
+    top: 11vh;
     width: 15.9375vw;
     transition-delay: .5s !important;
 }
@@ -489,12 +489,13 @@ img {
     width: 18.28125vw; transition-delay: 1.2s !important;
 }
 .absolute_comment27 {
-    left: 20.72vw;
-    top: 36.94vh;
-    width: 20.57vw; transition-delay: 2s !important;
+    left: 34.72vw;
+    top: 47.94vh;
+    width: 20.57vw;
+    transition-delay: 2s !important;
 }
 .absolute_comment28 {
-    left: 28.75vw;
+    left: 50.75vw;
     top: 42.87vh;
     width: 14.42vw; transition-delay: .6s !important;
 }
